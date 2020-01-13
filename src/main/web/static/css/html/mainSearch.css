@@ -1,0 +1,63 @@
+.searchDiv {
+    /*设置背景颜色为天猫红*/
+    background-color: #C40000;
+    width: 400px;
+    margin: 50px auto;
+    padding: 1px;
+    height: 40px;
+    display: block;
+}
+
+.searchDiv input {
+    width: 275px;
+    /*设置边框为透明*/
+    border: 1px solid transparent;
+    height: 36px;
+    margin: 1px;
+    /**去掉输入框轮廓，否则获取焦点的时候会发生颜色变化**/
+    outline: none;
+}
+
+.searchDiv button {
+    width: 100px;
+    /**按钮的边框设置成透明的，这样就不会有阴影了**/
+    border: 1px solid transparent;
+    background: #C40000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.searchBelow {
+    margin-top: 3px;
+    margin-left: -20px;
+}
+
+div.searchBelow span {
+    color: #999;
+}
+
+div.searchBelow a {
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+}
+
+/**设置图片的位置**/
+img.logo {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    /**-1表示放在下面，免得图片挡住了输入框**/
+    z-index: -1;
+}
+body{
+    font-size: 12px;
+    font-family:Arial;
+}
+a{
+    color: #999;
+}
+a:hover{
+    text-decoration: none;
+    color: #C40000;
+}
