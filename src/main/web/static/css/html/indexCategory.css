@@ -1,0 +1,67 @@
+.categoryWithCarousel{
+    position: relative;
+}
+div.categoryMenu{
+    width:200px;
+    background: #e2e2e3;
+    margin-left: 20px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 1;
+}
+.categoryMenu a{
+    color: #000;
+}
+.categoryMenu a:hover{
+    color: lightskyblue;
+    text-decoration: none;
+}
+div.productsAsideCategorys{
+    width:800px;
+    height:510px;
+    background-color: white;
+    margin-left: 220px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: 1;
+}
+/**设置每一行的边距**/
+div.productsAsideCategorys div.row{
+    margin:20px 80px 0px 80px;
+}
+/**设置每一行的分割线**/
+div.productsAsideCategorys div.seperator{
+    margin-top: 20px;
+    /**下边框虚线**/
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #e7e7e7;
+}
+/**设置子分类的超链接的颜色**/
+div.productsAsideCategorys a{
+    color: #999;
+    font-size: 14px;
+    margin: 8px;
+}
+div.productsAsideCategorys a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+/**设置左侧分类行高**/
+div.eachCategory{
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+/**分类和图标之间的距离**/
+div.eachCategory span{
+    margin-right: 10px;
+}
+/**设置每个分类，当鼠标放上去的时候，背景颜色设置成白色，这样看起来和右边的小分类成为一体**/
+div.eachCategory:hover{
+    background-color: white;
+}
+
+
